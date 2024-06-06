@@ -13,7 +13,6 @@ const createCard = (product) => {
     const elementBox = document.createElement('div');
     elementBox.className = product.product.replaceAll(' ', '_').toLowerCase();
     elementBox.classList.add('product__box');
-    //elementBox.addEventListener('click', () => redraw(product));
 
     const titleEl = document.createElement('h1');
     titleEl.classList.add('product_title');
