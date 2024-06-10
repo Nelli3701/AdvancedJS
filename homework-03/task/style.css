@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: gray;
+    color: aqua;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+}
+
+nav>a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.input {
+    margin-bottom: 15px;
+    padding: 3px;
+    min-width: 50vw;
+    min-height: 80px;
+    border-radius: 11px 11px 11px 11px;
+}
+
+.container {
+    margin: 30px;
+}
+
+li p {
+    margin-right: 20px;
+    margin-left: 8vw;
+}
+
+button {
+    background-color: rgb(78, 78, 100);
+    color: aliceblue;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 0;
+    display: block;
+    margin-top: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+textarea {
+    min-width: 60vw;
+    min-height: 50px;
+}
+
+.ui-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error {
+    border: 1px solid #e20909;
+}
+
+.error__message {
+    color: #e20909;
+    font-style: bold;
+    font-size: large;
+}
+
+.review-list {
+    list-style: none;
+}
+
+.review-list li {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-list li button {
+    background-color: red;
+}
